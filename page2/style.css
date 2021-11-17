@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Page Reset */
+
+/* Utility Classes Start */
+.flexed{
+    display: flex;
+}
+
+.flex1{
+    flex: 1;
+}
+
+.flex2{
+    flex: 3;
+}
+/* Utility Classes End  */
+
+/* Main Content Start */
+.container{
+    margin: 0 auto;
+    min-height: 600px;
+    width: 40%;
+}
+
+/* Header Start */
+.headline h1{
+    padding: .5em;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.feed-head {
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 1.8em;
+    padding: .5em;
+    font-family: cursive;
+}
+/* Header End */
+
+/* Profile Content Body */
+.main-content{
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: white;
+    gap: 1.5rem;
+}
+
+
+/* Left Side User Info Start */
+.user-info{
+    background-color: white;
+    height: 250px;
+    padding: 1.5em;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.user-info img {
+    height: 75px;
+}
+
+.user-name {
+    margin-top: 40px;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+
+.avatar{
+    display: block;
+    margin-top: 25px;
+    font-family: cursive;
+}
+/* Left Side User Info End */
+
+/* Right Side Posts Content Start */
+.feed{
+    background-color: white;
+    min-height: 200px;
+}
+
+.post{
+    background-color: white;
+    font-family: cursive;
+    color: black;
+    border: 4px solid black;
+    margin-bottom: 1.5rem;
+    min-height: 150px;
+    padding: 1.5rem;
+}
+
+#button1{
+    font-size: .75em;
+}
+
+#button2{
+    font-size: .75em;
+}
+
+#button3{
+    font-size: .75em;
+}
+
+.post-text{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1.25rem;
+}
+
+.visitor {
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.75em;
+}
+
+.like-btn{
+    height: 35px;
+    width: 65px;
+    box-shadow: 2px 2px 1px black ;
+    background-color: #ffd966;
+    font-family: cursive;
+}
+/* Main Content End */

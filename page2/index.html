@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>likes-project2</title>
+</head>
+<body>
+    <div class="container">
+        <header class="headline">
+            <h1>Network</h1>
+        </header>
+        <h1 class="feed-head">Your Feed</h1>
+        <div class="main-content flexed">
+            <div class="user-info flex1">
+                <img src="./user-circle.png" alt="User Avatar Default Picture">
+                <a class="avatar" href="#">Add an avatar</a>
+                <h3 class="user-name">James Doe</h3>
+            </div>
+            <div class="feed flex2">
+                <div class="post">
+                    <h3 class="visitor flexed">Neil M
+                        <p id="button1">0 Like(s)</p>
+                        <button onclick="changeStat1();" class="like-btn">Like</button>
+                    </h3>
+                    <p class="post-text">I just set up this new discord bot,
+                        let me know what you all think <a href="#">link</a>
+                    </p>
+                </div>
+                <div class="post">
+                    <h3 class="visitor flexed">Nichole K
+                        <p id="button2">0 Like(s)</p>
+                        <button onclick="changeStat2();" class="like-btn">Like</button>
+                    </h3>
+                    <p class="post-text">Just finished my <a href="#">next comic</a>,
+                        check it out.
+                    </p>
+                </div>
+                <div class="post">
+                    <h3 class="visitor flexed">Jim R
+                        <p id="button3">0 Like(s)</p>
+                        <button onclick="changeStat3();" class="like-btn">Like</button>
+                    </h3>
+                    <p class="post-text">I can't stop listening to the <a href="#">new album</a>.
+                        Who else is liking it?
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
